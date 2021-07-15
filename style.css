@@ -2,6 +2,18 @@ body {
     background: #edc4b3;
     font-family: 'Nunito', sans-serif;
 }
+.blurb h2 {
+    color: #774936;
+    font-size: 2.5rem;
+}
+.blurb p {
+    color: #8a5a44;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+.content {
+    margin-top: 50px;
+}
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 400;
@@ -11,7 +23,6 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
 }
-
 #mainNavbar .nav-link{
     color: white;
 }
