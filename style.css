@@ -19,7 +19,7 @@ body {
     font-weight: 400;
 }
 #mainNavbar .navbar-brand{
-    color: #774936;
+    color: black;
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -37,9 +37,17 @@ body {
     font-weight: 100;
     letter-spacing: 0.1em;
 }
+.navbar.scrolled {
+    background: #9d6b53;
+    transition: background 1s;
+}
 @media (max-width:1300px) {
     #headingGroup h1 {
         font-size: 3rem;
         font-weight: 100;
     }
+}
+footer {
+    background-color: #9d6b53;
+    font-weight: 400;
 }
